@@ -1,0 +1,14 @@
+{
+  "benchmark": "Lizard_Complexity_Lab_Results",
+  "project": "L_LIGHTRAG",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://github.com/terryyin/lizard",
+  "results": {
+    "framework": "Lizard \u2014 Multi-Language Complexity Analyzer",
+    "source": "https://github.com/terryyin/lizard",
+    "total_functions": null,
+    "avg_cyclomatic_complexity": null,
+    "status": "SKIP",
+    "raw_output": "================================================\n  NLOC    CCN   token  PARAM  length  location  \n------------------------------------------------\n      28      4    166      0      36 copy_from_postgres_to_json@39-74@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LIGHTRAG\\UPSTREAM\\examples\\unofficial-sample\\copy_llm_cache_to_another_storage.py\n      24      3    145      0      34 copy_from_json_to_postgres@77-110@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LIGHTRAG\\UPSTREAM\\examples\\unofficial-sample\\copy_llm_cache_to_another_storage.py\n      11      1     46      0      12 initialize_rag@24-35@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LIGHTRAG\\UPSTREAM\\examples\\unofficial-sample\\lightrag_bedrock_demo.py\n      13      2    106      0      15 main@38-52@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LIGHTRAG\\UPSTREAM\\examples\\unofficial-sample\\lightrag_bedrock_demo.py\n      15      1     64      7      15 __init__@37-51@E:\\fenta\\"
+  }
+}

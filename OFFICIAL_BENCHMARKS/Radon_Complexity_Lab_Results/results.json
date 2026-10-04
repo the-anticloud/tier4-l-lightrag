@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "L_LIGHTRAG",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 2.5925925925925926
+    },
+    "complexity_grade": "A",
+    "complexity_score": 2.5925925925925926,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LIGHTRAG\\UPSTREAM\\examples\\generate_query.py\n    F 6:0 openai_complete_if_cache - A (4)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LIGHTRAG\\UPSTREAM\\examples\\graph_visual_with_neo4j.py\n    F 17:0 xml_to_json - C (12)\n    F 77:0 convert_xml_to_json - A (3)\n    F 94:0 process_in_batches - A (3)\n    F 101:0 main - A (3)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LIGHTRAG\\UPSTREAM\\examples\\graph_visual_with_opensearch.py\n    F 58:0 generate_html - B (6)\n    F 113:0 main - A (3)\n    F 49:0 fetch_graph - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LIGHTRAG\\UPSTREAM\\examples\\lightrag_ag2_multiagent_demo.py\n    F 247:0 main - A (4)\n    F 70:0 setup_lightrag - A (2)\n    F 205:0 run_multiagent_query - A (2)\n    F 94:0 _start_background_loop - A (1)\n    F 99:0 _run_async - A (1)\n    F 111:0 create_agents - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LIGHTRAG\\UPSTREAM\\examples\\lightrag_azure_openai_demo.py\n    F 32:0 llm_model_func - A (5)\n    F 60:0 embedding_func - A (2)\n    F 72:0 test_funcs - A (1)\n    F 86:0 initialize_rag - A (1)\n    F 101:0 main - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LIGHTRAG\\UPSTREAM\\examples\\lightrag_gemini_demo.py\n    F 92:0 main - A (2)\n    F 47:0 llm_model_func - A (1)\n    F 67:0 embedding_func - A (1)\n    F 76:0 initialize_rag - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LIGHTRA",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LIGHTRAG\\UPSTREAM\\setup.py - A (100.00)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LIGHTRAG\\UPSTREAM\\examples\\generate_query.py - A (68.06)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LIGHTRAG\\UPSTREAM\\examples\\graph_visual_with_html.py - A (87.88)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LIGHTRAG\\UPSTREAM\\examples\\graph_visual_with_neo4j.py - A (58.40)\nE:\\fenta\\Downloads\\The Anticloud\\TIE"
+  }
+}

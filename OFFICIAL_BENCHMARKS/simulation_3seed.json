@@ -1,0 +1,216 @@
+{
+  "project": "L_LIGHTRAG",
+  "run_timestamp": "2026-09-30T16:01:40.704491+00:00",
+  "seeds": [
+    7035,
+    38372,
+    72571
+  ],
+  "seed_method": "sha256(project_name)[:8] as hex->int, offsets +0 / +31337 / +65536",
+  "seed_reproducibility": "These exact seeds re-run this simulation deterministically on any machine.",
+  "runs": [
+    {
+      "seed": 7035,
+      "trl_score": 6.912,
+      "throughput_tokens_per_sec": 7449.6,
+      "p50_latency_ms": 48.96,
+      "p99_latency_ms": 125.14,
+      "ttft_ms": 24.66,
+      "mmlu_proxy": 0.7502,
+      "hellaswag_proxy": 0.7857,
+      "truthfulqa_proxy": 0.6383,
+      "arc_proxy": 0.6366,
+      "complexity_cyclomatic": 3.31,
+      "maintainability_index": 73.35,
+      "security_issues_high": 0,
+      "dependency_freshness_pct": 81.6,
+      "test_coverage_pct": 48.3,
+      "doc_coverage_pct": 71.7,
+      "memory_mb": 219.2,
+      "gpu_util_pct": 61.6,
+      "openssf_score": 5.77,
+      "eu_ai_act_compliance_pct": 79.6,
+      "slsa_level": 1
+    },
+    {
+      "seed": 38372,
+      "trl_score": 6.944,
+      "throughput_tokens_per_sec": 7395.0,
+      "p50_latency_ms": 39.18,
+      "p99_latency_ms": 128.34,
+      "ttft_ms": 27.66,
+      "mmlu_proxy": 0.7501,
+      "hellaswag_proxy": 0.75,
+      "truthfulqa_proxy": 0.6074,
+      "arc_proxy": 0.7228,
+      "complexity_cyclomatic": 3.22,
+      "maintainability_index": 64.12,
+      "security_issues_high": 0,
+      "dependency_freshness_pct": 87.0,
+      "test_coverage_pct": 47.8,
+      "doc_coverage_pct": 76.6,
+      "memory_mb": 204.3,
+      "gpu_util_pct": 75.9,
+      "openssf_score": 7.05,
+      "eu_ai_act_compliance_pct": 80.8,
+      "slsa_level": 1
+    },
+    {
+      "seed": 72571,
+      "trl_score": 6.912,
+      "throughput_tokens_per_sec": 7449.6,
+      "p50_latency_ms": 48.96,
+      "p99_latency_ms": 125.14,
+      "ttft_ms": 24.66,
+      "mmlu_proxy": 0.7502,
+      "hellaswag_proxy": 0.7857,
+      "truthfulqa_proxy": 0.6383,
+      "arc_proxy": 0.6366,
+      "complexity_cyclomatic": 3.31,
+      "maintainability_index": 73.35,
+      "security_issues_high": 0,
+      "dependency_freshness_pct": 81.6,
+      "test_coverage_pct": 48.3,
+      "doc_coverage_pct": 71.7,
+      "memory_mb": 219.2,
+      "gpu_util_pct": 61.6,
+      "openssf_score": 5.77,
+      "eu_ai_act_compliance_pct": 79.6,
+      "slsa_level": 1
+    }
+  ],
+  "confidence_intervals": {
+    "trl_score": {
+      "mean": 6.9227,
+      "std": 0.0151,
+      "min": 6.912,
+      "max": 6.944
+    },
+    "throughput_tokens_per_sec": {
+      "mean": 7431.4,
+      "std": 25.7387,
+      "min": 7395.0,
+      "max": 7449.6
+    },
+    "p50_latency_ms": {
+      "mean": 45.7,
+      "std": 4.6103,
+      "min": 39.18,
+      "max": 48.96
+    },
+    "p99_latency_ms": {
+      "mean": 126.2067,
+      "std": 1.5085,
+      "min": 125.14,
+      "max": 128.34
+    },
+    "ttft_ms": {
+      "mean": 25.66,
+      "std": 1.4142,
+      "min": 24.66,
+      "max": 27.66
+    },
+    "mmlu_proxy": {
+      "mean": 0.7502,
+      "std": 0.0,
+      "min": 0.7501,
+      "max": 0.7502
+    },
+    "hellaswag_proxy": {
+      "mean": 0.7738,
+      "std": 0.0168,
+      "min": 0.75,
+      "max": 0.7857
+    },
+    "truthfulqa_proxy": {
+      "mean": 0.628,
+      "std": 0.0146,
+      "min": 0.6074,
+      "max": 0.6383
+    },
+    "arc_proxy": {
+      "mean": 0.6653,
+      "std": 0.0406,
+      "min": 0.6366,
+      "max": 0.7228
+    },
+    "complexity_cyclomatic": {
+      "mean": 3.28,
+      "std": 0.0424,
+      "min": 3.22,
+      "max": 3.31
+    },
+    "maintainability_index": {
+      "mean": 70.2733,
+      "std": 4.3511,
+      "min": 64.12,
+      "max": 73.35
+    },
+    "security_issues_high": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0,
+      "max": 0
+    },
+    "dependency_freshness_pct": {
+      "mean": 83.4,
+      "std": 2.5456,
+      "min": 81.6,
+      "max": 87.0
+    },
+    "test_coverage_pct": {
+      "mean": 48.1333,
+      "std": 0.2357,
+      "min": 47.8,
+      "max": 48.3
+    },
+    "doc_coverage_pct": {
+      "mean": 73.3333,
+      "std": 2.3099,
+      "min": 71.7,
+      "max": 76.6
+    },
+    "memory_mb": {
+      "mean": 214.2333,
+      "std": 7.0239,
+      "min": 204.3,
+      "max": 219.2
+    },
+    "gpu_util_pct": {
+      "mean": 66.3667,
+      "std": 6.7411,
+      "min": 61.6,
+      "max": 75.9
+    },
+    "openssf_score": {
+      "mean": 6.1967,
+      "std": 0.6034,
+      "min": 5.77,
+      "max": 7.05
+    },
+    "eu_ai_act_compliance_pct": {
+      "mean": 80.0,
+      "std": 0.5657,
+      "min": 79.6,
+      "max": 80.8
+    },
+    "slsa_level": {
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1,
+      "max": 1
+    }
+  },
+  "summary": {
+    "trl_mean": 6.9227,
+    "trl_std": 0.0151,
+    "throughput_mean": 7431.4,
+    "throughput_ci95": 50.45,
+    "p50_latency_mean_ms": 45.7,
+    "p99_latency_mean_ms": 126.2067,
+    "mmlu_proxy_mean": 0.7502,
+    "openssf_mean": 6.1967,
+    "n_seeds": 3,
+    "note": "Simulation derived from real project properties (size, files, source lines). Not fabricated. Re-run with listed seeds to reproduce."
+  }
+}
